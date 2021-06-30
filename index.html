@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css">
+	<title>Document</title>
+</head>
+<body>
+	<div id="parent">
+		<div id="form">
+			<input type="tel" id="input" placeholder="0 ₽уб">
+			
+			<!-- <input id="add__food" type="button" key='food' value="добавить еду"> -->
+			
+		</div>
+		<div class="row">
+			<div class="column" id="add__food" data-key='Еда'><img class="img" src="food.svg" alt=""></div>
+			<div class="column" id="add__cafe" data-key='Кафе'><img class="img" src="cafe.svg" alt=""></div>
+			<div class="column" id="add__health" data-key='Здоровье'><img class="img" src="health.svg" alt=""></div>
+			<div class="column" id="add__animals" data-key='Питомцы'><img class="img" src="animals.svg" alt=""></div>
+		</div>
+		<div class="row">
+			<div class="column" id="add__clothes" data-key='Одежда'><img class="img" src="clothes.svg" alt=""></div>
+			<div class="column" id="add__car" data-key='Машина'><img class="img" src="car.svg" alt=""></div>
+			<div class="column" id="add__home" data-key='Дом'><img class="img" src="home.svg" alt=""></div>
+			<div class="column" id="add__connection" data-key='Связь'><img class="img" src="connection.svg" alt=""></div>
+		</div>
+		
+		<div class="row">
+			<div class="column" id="add__hygiene" data-key='Гигиена'><img class="img" src="hygiene.svg" alt=""></div>
+			<div class="column" id="add__relax" data-key='Отдых'><img class="img" src="relax.svg" alt=""></div>
+			<div class="column" id="add__transport" data-key='Транспорт'><img class="img" src="transport.svg" alt=""></div>
+			<div class="column" id="add__presents" data-key='Подарки'><img class="img" src="presents.svg" alt=""></div>
+		</div>
+		<div class="row">
+			<div class="block">
+				<canvas id="myChart"></canvas>
+			</div>
+		</div>
+
+		
+		<div id="result">
+			<!-- Баланс: <span id="total">0</span> ₽уб -->
+		</div>
+		
+		<div class="questions__item">
+			<div class="questions__click">
+				<div class="burger">
+					<span></span>
+				</div>
+				<p class="questions__question">Баланс <span id="total">0</span> ₽уб</p>
+				<div class="burger">
+					<span></span>
+				</div>
+			</div>
+			<div class="questions__answer">
+				<table class="" id="table">
+				</table>
+			</div>
+		</div>
+		
+		
+		
+	</div>
+	
+	<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+	<script src="main.js"></script>
+</body>
+</html>
