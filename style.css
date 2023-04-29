@@ -70,6 +70,7 @@ html {
 	-o-transition: all 0.3s ease 0s;
 	transition: all 0.3s ease 0s;
 	border-radius: 5px;
+	cursor: pointer;
 }
 .column:hover {
 	background-color: #ccc;
@@ -94,6 +95,7 @@ html {
 	justify-content: space-around;
 	align-items: center;
 	height: 60px;
+	cursor: pointer;
 	-webkit-transition: all 0.3s ease 0s;
 	-moz-transition: all 0.3s ease 0s;
 	-o-transition: all 0.3s ease 0s;
